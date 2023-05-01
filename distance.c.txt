@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+
+{
+
+    /*var: Xa Ya Xb Yb*/
+    float Xa, Ya, Xb, Yb, AB;
+
+    /*input: indicate vars*/
+
+    /*a*/
+    printf("Insert the X coodrinate of A: ");
+    scanf("%f", &Xa);
+    printf("Insert the Y coodrinate of A: ");
+    scanf("%f", &Ya);
+
+    /*b*/
+    printf("Insert the X coodrinate of B: ");
+    scanf("%f", &Xb);
+    printf("Insert the Y coodrinate of B: ");
+    scanf("%f", &Yb);
+
+    /*program:
+    sqrt(pow((Xb - Xa), 2) + pow(Yb - Ya), 2))
+    */
+    AB = sqrt(pow((Xb - Xa), 2) + pow((Yb - Ya), 2));
+    /*output: AB = */
+    printf("The distance between A and B is: %.2f", AB);
+
+    return 0;
+}
