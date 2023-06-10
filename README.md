@@ -1,2 +1,3 @@
 # C_mini_projects
-A series of mini projects in C
+
+In this repository, I used concepts I learned in C programming language to solve a number of arithmetic / math basic problems.
